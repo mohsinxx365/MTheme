@@ -1,0 +1,56 @@
+{
+	"name": "mtheme",
+	"displayName": "Mtheme",
+	"description": "👌 A Simplistic Minimal Theme For Vscode",
+	"version": "1.0.0",
+	"publisher": "mohsin",
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"icon": "images/icon/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mohsinxx365/mtheme"
+	},
+	"galleryBanner": {
+		"color": "#143d59",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Mtheme",
+		"MiTheme",
+		"mtheme",
+		"Dark Theme",
+		"Cobalt",
+		"VSCode Power User",
+		"Shade of Purple",
+		"Shades of Purple"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "MTheme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mtheme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	},
+	"files": [
+		".vscodeignore",
+		"themes/shades-of-purple-color-theme.json",
+		"themes",
+		"themes/*",
+		"images/logo.png",
+		"package.json"
+	],
+
+	"scripts": {
+		"start": "nodemon --exec vsce package"
+	}
+}
