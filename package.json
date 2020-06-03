@@ -43,7 +43,7 @@
 	},
 	"files": [
 		".vscodeignore",
-		"themes/shades-of-purple-color-theme.json",
+		"themes/mtheme.json",
 		"themes",
 		"themes/*",
 		"images/logo.png",
